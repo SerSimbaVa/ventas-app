@@ -1,5 +1,0 @@
-vue@^3
-@vue/apollo-composable
-graphql
-vue-chartjs
-chart.js
