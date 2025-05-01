@@ -89,11 +89,11 @@ WSGI_APPLICATION = 'ventas_project.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'datos_prueba',
-        'USER': 'root',
+        'NAME': '',
+        'USER': '',
         'PASSWORD': '',
-        'HOST': 'localhost',
-        'PORT': '3310',
+        'HOST': '',
+        'PORT': '',
     }
 }
 
