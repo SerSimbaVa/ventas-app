@@ -1,0 +1,70 @@
+# Django
+*.pyc
+__pycache__/
+db.sqlite3
+*.log
+.env
+.env.*
+
+# VSCode
+.vscode/
+
+# Django migrations
+**/migrations/
+!**/migrations/__init__.py
+
+# Node / Vue
+node_modules/
+dist/
+*.local
+*.lock
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Others
+.idea/
+*.swp
+*.bak
+
+# Node modules (frontend)
+ventas-frontend/node_modules/
+ventas-frontend/dist/
+ventas-frontend/.vite/
+
+# Build output (frontend)
+ventas-frontend/dist/
+ventas-frontend/.vite/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.sqlite3
+
+# Django files
+*.log
+*.pot
+*.pyc
+*.pyo
+*.db
+db.sqlite3
+
+# IDEs y editores
+.vscode/
+.idea/
+*.swp
+
+# Entorno virtual
+env/
+venv/
+ENV/
+.venv/
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+
+# SQLite / base de datos
+*.sqlite3
+db.sqlite3
